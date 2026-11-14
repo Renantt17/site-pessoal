@@ -5,25 +5,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Renan Gabriel Pilonetto</title>
+
+    <title>Renan Gabriel Pilonetto | Portfólio</title>
+
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-    <header>
+    <header id="inicio">
+        <img src="imagens/perfil.jpg" alt="Foto de Renan Gabriel">
+
         <h1>Renan Gabriel Pilonetto</h1>
 
         <p>
-            Estudante de Engenharia de Software, interessado em tecnologia,
-            programação e desenvolvimento de sistemas.
+            Estudante de Engenharia de Software
         </p>
 
-        <img src="imagens/perfil.jpg" alt="Foto de Renan Gabriel" width="200">
+        <p>
+            Explorando tecnologia, programação e desenvolvimento de soluções.
+        </p>
     </header>
+
+    <nav>
+        <ul>
+            <li><a href="#sobre">Sobre mim</a></li>
+            <li><a href="#formacao">Formação</a></li>
+            <li><a href="#experiencias">Experiências</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
 
     <main>
 
-        <section>
+        <section id="sobre">
             <h2>Sobre mim</h2>
 
             <p>
@@ -47,26 +64,26 @@
             </p>
         </section>
 
-        <section>
+        <section id="formacao">
             <h2>Formação acadêmica</h2>
 
             <article>
-                <h3>Engenharia de Software - UTFPR</h3>
+                <h3>Engenharia de Software - Universidade Tecnologica Federal do Paraná (UTFPR)</h3>
                 <p>2025 - Atual</p>
+                <p>Graduação em andamento.</p>
             </article>
 
             <article>
-                <h3>Desenvolvimento de Sistemas</h3>
+                <h3>Desenvolvimento de Sistemas - Colégio Estadual Arnaldo Busato (CEAB)</h3>
                 <p>2022 - 2024</p>
             </article>
         </section>
 
-        <section>
+        <section id="experiencias">
             <h2>Experiências profissionais</h2>
 
             <article>
                 <h3>Prefeitura Municipal de Verê</h3>
-
                 <p><strong>Cargo:</strong> Jovem Aprendiz</p>
                 <p><strong>Período:</strong> Aproximadamente 1 ano</p>
 
@@ -80,7 +97,6 @@
 
             <article>
                 <h3>Supermercado Real - Verê</h3>
-
                 <p><strong>Cargo:</strong> Setor administrativo</p>
                 <p><strong>Período:</strong> Aproximadamente 1 ano - Atual</p>
 
@@ -92,7 +108,7 @@
             </article>
         </section>
 
-        <section>
+        <section id="projetos">
             <h2>Projetos e interesses</h2>
 
             <article>
@@ -116,7 +132,7 @@
             </article>
         </section>
 
-        <section>
+        <section id="habilidades">
             <h2>Habilidades e tecnologias</h2>
 
             <h3>Linguagens e desenvolvimento</h3>
@@ -136,29 +152,37 @@
                 <li>Git e GitHub</li>
                 <li>Trello</li>
                 <li>Visual Studio Code</li>
+                <li>PostgreSQL</li>
+                <li>Draw.io</li>
             </ul>
         </section>
 
-        <section>
+        <section id="contato">
             <h2>Contato</h2>
 
-            <p>Entre em contato comigo pelo formulário abaixo.</p>
+            <p>
+                Tem alguma dúvida ou gostaria de conversar?
+                Envie uma mensagem pelo formulário abaixo.
+            </p>
 
             <form>
                 <p>
-                    <label for="nome">Nome:</label>
-                    <input type="text" id="nome" name="nome" required>
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome"
+                        placeholder="Digite seu nome" required>
                 </p>
 
                 <p>
-                    <label for="email">E-mail:</label>
-                    <input type="email" id="email" name="email" required>
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email"
+                        placeholder="Digite seu e-mail" required>
                 </p>
 
                 <p>
-                    <label for="mensagem">Mensagem:</label>
+                    <label for="mensagem">Mensagem</label>
                     <textarea id="mensagem" name="mensagem"
-                        rows="5" cols="30" required></textarea>
+                        rows="5" cols="30"
+                        placeholder="Escreva sua mensagem..." required></textarea>
                 </p>
 
                 <button type="submit">Enviar mensagem</button>
@@ -168,7 +192,7 @@
     </main>
 
     <footer>
-        <h2>Redes sociais</h2>
+        <h2>Vamos nos conectar?</h2>
 
         <p>
             <a href="https://github.com/Renantt17" target="_blank">
