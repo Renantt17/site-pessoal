@@ -1,13 +1,26 @@
 
+/* Configurações gerais */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Cabeçalho */
 header {
     background-color: #eaf0fa;
     text-align: center;
     padding: 30px 20px;
     border-bottom: 2px solid #315da8;
 }
+
 header img {
     width: 130px;
     height: 130px;
+    max-width: 100%;
     border: 2px solid #7562bd;
     border-radius: 50%;
     object-fit: cover;
@@ -24,12 +37,15 @@ header p {
     font-size: 16px;
     margin: 5px;
 }
+
+/* Navegação */
 nav {
     background-color: #f0f0f0;
     text-align: center;
     padding: 15px;
     border-bottom: 1px solid #b8c9e6;
 }
+
 nav ul {
     list-style: none;
     padding: 0;
@@ -37,8 +53,8 @@ nav ul {
 }
 
 nav li {
-    display: inline-block;
-    margin: 5px 15px;
+    display: block;
+    margin: 10px 5px;
 }
 
 nav a {
@@ -52,6 +68,15 @@ nav a:hover {
     text-decoration: underline;
 }
 
+/* Conteúdo principal */
+main {
+    width: 100%;
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 0 15px;
+}
+
+/* Seções */
 section {
     background-color: white;
     padding: 25px;
@@ -63,6 +88,7 @@ section h2 {
     color: #315da8;
     font-size: 24px;
 }
+
 section h3 {
     color: #55468d;
 }
@@ -70,6 +96,7 @@ section h3 {
 section p {
     color: #333333;
 }
+
 article {
     background-color: #f8f8fc;
     padding: 15px;
@@ -77,7 +104,7 @@ article {
     border: 1px solid #d5cbed;
 }
 
-
+/* Formulário */
 form {
     margin-top: 20px;
 }
@@ -87,39 +114,23 @@ form p {
 }
 
 label {
-    display: inline-block;
-    width: 90px;
+    display: block;
     color: #315da8;
-}
-
-
-form {
-    margin-top: 20px;
-}
-
-form p {
-    margin-bottom: 20px;
-}
-
-label {
-    display: inline-block;
-    width: 90px;
-    color: #315da8;
+    margin-bottom: 5px;
 }
 
 input,
 textarea {
-    width: 400px;
+    width: 100%;
+    max-width: 400px;
     padding: 10px;
     border: 1px solid #aaaaaa;
     font-family: Arial, sans-serif;
     font-size: 15px;
-    box-sizing: border-box;
 }
 
 textarea {
     height: 130px;
-    vertical-align: middle;
 }
 
 button {
@@ -132,4 +143,34 @@ button {
 
 button:hover {
     background-color: #7562bd;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+    nav li {
+        display: inline-block;
+        margin: 5px 15px;
+    }
+
+    label {
+        display: inline-block;
+        width: 90px;
+        margin-bottom: 0;
+    }
+}
+
+/* Desktop */
+@media (min-width: 1200px) {
+    header h1 {
+        font-size: 32px;git status
+    }
+
+    main {
+        max-width: 1000px;
+    }
 }
