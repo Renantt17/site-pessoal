@@ -1,33 +1,40 @@
-<!Site Pessoal
-Este repositório contém meu site pessoal, desenvolvido durante a disciplina de Programação Web 1.
-A ideia é colocar em prática o que estamos aprendendo nas aulas, começando pela estrutura da página e evoluindo aos poucos até chegar a uma versão responsiva.
+# Site Pessoal
 
+Este é meu site pessoal, desenvolvido durante a disciplina de Programação Web 1.
 
-<!Sobre o projeto
-O site reúne algumas informações sobre mim, como minha formação, experiências profissionais, projetos, interesses e habilidades.
-Durante o desenvolvimento, o projeto passa por três etapas:
+O projeto foi feito em etapas, acompanhando os conteúdos estudados durante as aulas. A ideia foi começar com uma página simples em HTML e, aos poucos, adicionar estilos e recursos para que o site funcione em diferentes tamanhos de tela.
 
-- Etapa 1:criação da página utilizando HTML.
-- Etapa 2: aplicação de estilos com CSS.
-- Etapa 3: adaptação do site para celulares, tablets e computadores utilizando Mobile First e media queries.
+## Etapas do projeto
 
-<!Tecnologias
-- HTML5
-- CSS3
+- [Etapa 1 — HTML](./01-html-puro/)
+- [Etapa 2 — CSS](./02-css/)
+- [Etapa 3 — Mobile First](./03-mobile-first/)
 
-<!Estrutura dos arquivos
-site-pessoal/
-├── index.html
-├── css/
-│   └── style.css
-├── imagens/
-│   └── perfil.jpg
-└── README.md
+## Acesse o site
 
-
-<!Acesse o site
 [Visualizar meu site](https://renantt17.github.io/site-pessoal/)
 
-<!Autor
+## Autor
+
 Renan Gabriel Pilonetto
+
 [GitHub](https://github.com/Renantt17)
+
+Visualização Final:
+
+site-pessoal/
+├── etapa-1-html/
+│   └── index.html
+├── etapa-2-css/
+│   ├── index.html
+│   ├── css/
+│   │   └── style.css
+│   └── imagens/
+│       └── perfil.jpg
+├── etapa-3-mobile/
+│   ├── index.html
+│   ├── css/
+│   │   └── style.css
+│   └── imagens/
+│       └── perfil.jpg
+└── README.mdgit status
