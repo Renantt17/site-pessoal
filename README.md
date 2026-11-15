@@ -20,21 +20,26 @@ Renan Gabriel Pilonetto
 
 [GitHub](https://github.com/Renantt17)
 
-Visualização Final:
+## Visualização Final
 
+```text
 site-pessoal/
-├── etapa-1-html/
-│   └── index.html
-├── etapa-2-css/
+├── 01-html-puro/
+|   ├── index.html
+│   └── imagens/
+│       └── perfil.jpg
+├── 02-css/
 │   ├── index.html
 │   ├── css/
 │   │   └── style.css
 │   └── imagens/
 │       └── perfil.jpg
-├── etapa-3-mobile/
+├── 03-mobile-first/
 │   ├── index.html
 │   ├── css/
 │   │   └── style.css
 │   └── imagens/
+│       ├── icone.jpg
 │       └── perfil.jpg
-└── README.mdgit status
+└── README.md
+```
