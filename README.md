@@ -2,30 +2,31 @@
 
 Este é meu site pessoal, desenvolvido durante a disciplina de Programação Web 1.
 
-O projeto foi feito em etapas, acompanhando os conteúdos estudados durante as aulas. A ideia foi começar com uma página simples em HTML e, aos poucos, adicionar estilos e recursos para que o site funcione em diferentes tamanhos de tela.
+O projeto foi construído aos poucos, acompanhando os conteúdos estudados durante as aulas. Comecei criando a estrutura da página com HTML, depois trabalhei sua aparência com CSS e, por fim, adaptei o site para diferentes tamanhos de tela.
 
-## Etapas do projeto
+## Acesse o projeto
 
-- [Etapa 1 — HTML](./01-html-puro/)
-- [Etapa 2 — CSS](./02-css/)
-- [Etapa 3 — Mobile First](./03-mobile-first/)
+- [Repositório no GitHub](https://github.com/Renantt17/site-pessoal)
+- [Versão HTML puro](./01-html-puro/)
+- [Versão com CSS](./02-css/)
+- [Versão final — Mobile First](./03-mobile-first/)
 
-## Acesse o site
+## Visualizar o site
 
-[Visualizar meu site](https://renantt17.github.io/site-pessoal/)
+[Visualizar meu site](https://renantt17.github.io/site-pessoal/03-mobile-first/)
 
 ## Autor
 
 Renan Gabriel Pilonetto
 
-[GitHub](https://github.com/Renantt17)
+[Meu GitHub](https://github.com/Renantt17)
 
 ## Visualização Final
 
 ```text
 site-pessoal/
 ├── 01-html-puro/
-|   ├── index.html
+│   ├── index.html
 │   └── imagens/
 │       └── perfil.jpg
 ├── 02-css/
