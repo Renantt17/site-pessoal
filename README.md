@@ -13,8 +13,11 @@ O projeto foi construído aos poucos, acompanhando os conteúdos estudados duran
 
 ## Visualizar o site
 
-[Visualizar meu site](https://renantt17.github.io/site-pessoal/03-mobile-first/)
+[Visualizar versão Html Puro](https://renantt17.github.io/site-pessoal/01-html-puro/)
 
+[Visualizar versão Css](https://renantt17.github.io/site-pessoal/02-css/)
+
+[Visualizar versão Mobile First](https://renantt17.github.io/site-pessoal/03-mobile-first/)
 ## Autor
 
 Renan Gabriel Pilonetto
